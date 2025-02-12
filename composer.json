@@ -1,13 +1,13 @@
 {
-	"name" : "huo-zi/laravel-wechat-notification",
+	"name" : "rooy/laravel-notification",
 	"description" : "微信 template message for Laravel Notification",
-	"homepage" : "https://github.com/huozi1024/laravel-wechat-notification",
+	"homepage" : "https://github.com/rooyzhang/laravel-notification",
 	"license" : "MIT",
 	"type" : "library",
 	"authors" : [{
-			"name" : "huozi",
-			"email" : "lio990527@163.com",
-			"homepage" : "https://github.com/huozi1024?tab=repositories"
+			"name" : "Rooy",
+			"email" : "rooyzhang@gmail.com",
+			"homepage" : "https://github.com/rooyzhang"
 		}
 	],
 	"require" : {
@@ -25,13 +25,13 @@
 	],
 	"autoload" : {
 		"psr-4" : {
-			"HuoZi\\LaravelWechatNotification\\" : "src/"
+			"Rooy\\LaravelNotification\\" : "src/"
 		}
 	},
 	"extra" : {
 		"laravel" : {
 			"providers" : [
-				"HuoZi\\LaravelWechatNotification\\ServiceProvider"
+				"Rooy\\LaravelNotification\\ServiceProvider"
 			]
 		}
 	},
