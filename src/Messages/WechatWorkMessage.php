@@ -1,5 +1,5 @@
 <?php
-namespace Huozi\LaravelWechatNotification\Messages;
+namespace Rooy\LaravelNotification\Messages;
 
 use EasyWeChat\Work\Message\Messenger;
 

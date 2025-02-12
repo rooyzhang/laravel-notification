@@ -1,8 +1,8 @@
 <?php
-namespace Huozi\LaravelWechatNotification;
+namespace Rooy\LaravelNotification;
 
-use Huozi\LaravelWechatNotification\Messages\MiniProgramTemplateMessage;
-use Huozi\LaravelWechatNotification\Messages\OfficateAccountTemplateMessage;
+use Rooy\LaravelNotification\Messages\MiniProgramTemplateMessage;
+use Rooy\LaravelNotification\Messages\OfficateAccountTemplateMessage;
 
 class WechatPlatform
 {

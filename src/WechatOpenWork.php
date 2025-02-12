@@ -1,7 +1,7 @@
 <?php
-namespace Huozi\LaravelWechatNotification;
+namespace Rooy\LaravelNotification;
 
-use Huozi\LaravelWechatNotification\Messages\WechatWorkMessage;
+use Rooy\LaravelNotification\Messages\WechatWorkMessage;
 
 class WechatOpenWork
 {

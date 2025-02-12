@@ -1,9 +1,9 @@
 <?php
-namespace Huozi\LaravelWechatNotification;
+namespace Rooy\LaravelNotification;
 
 use Illuminate\Support\ServiceProvider AS LaravelServiceProvider;
 use Illuminate\Support\Facades\Notification;
-use Huozi\LaravelWechatNotification\Channels\WechatTemplateChannel;
+use Rooy\LaravelNotification\Channels\WechatTemplateChannel;
 
 
 class ServiceProvider extends LaravelServiceProvider

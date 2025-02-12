@@ -1,10 +1,10 @@
 <?php
-namespace Huozi\LaravelWechatNotification;
+namespace Rooy\LaravelNotification;
 
 use Overtrue\LaravelWeChat\Facade;
-use Huozi\LaravelWechatNotification\Messages\OfficateAccountTemplateMessage;
-use Huozi\LaravelWechatNotification\Messages\MiniProgramTemplateMessage;
-use Huozi\LaravelWechatNotification\Messages\WechatWorkMessage;
+use Rooy\LaravelNotification\Messages\OfficateAccountTemplateMessage;
+use Rooy\LaravelNotification\Messages\MiniProgramTemplateMessage;
+use Rooy\LaravelNotification\Messages\WechatWorkMessage;
 
 class WechatMessage
 {

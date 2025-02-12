@@ -1,8 +1,8 @@
 <?php
-namespace Huozi\LaravelWechatNotification\Channels;
+namespace Rooy\LaravelNotification\Channels;
 
-use Huozi\LaravelWechatNotification\Messages\WechatTemplateMessage;
-use Huozi\LaravelWechatNotification\Messages\WechatWorkMessage;
+use Rooy\LaravelNotification\Messages\WechatTemplateMessage;
+use Rooy\LaravelNotification\Messages\WechatWorkMessage;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
